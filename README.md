@@ -37,7 +37,7 @@ Straightforward prompts are direct instructions given to the AI to receive clear
 **Response:**
 Photosynthesis is the process by which green plants use sunlight, water, and carbon dioxide to produce food and oxygen.
 
----
+
 
 ### Example 2
 
@@ -50,7 +50,7 @@ Photosynthesis is the process by which green plants use sunlight, water, and car
 2. Lower fuel costs
 3. Environmentally friendly transportation
 
----
+
 
 # 2. Tabular Format Prompting
 
@@ -73,7 +73,7 @@ Tabular format prompting presents information in a structured table for better r
 | Transmission    | Suitable for long distances    | Suitable for short distances |
 | Example         | Household electricity          | Mobile phone battery         |
 
----
+
 
 ### Example 2
 
@@ -90,7 +90,7 @@ Tabular format prompting presents information in a structured table for better r
 | JavaScript           | Event-Driven    | Web Development         |
 | SQL                  | Declarative     | Database Management     |
 
----
+
 
 # 3. Preceding Question Prompting
 
@@ -107,7 +107,6 @@ Preceding question prompting asks an initial question before providing a detaile
 
 Climate change is a global concern because it affects weather patterns, sea levels, agriculture, and human health worldwide. Greenhouse gases such as carbon dioxide and methane trap heat in the Earth’s atmosphere, increasing the planet’s temperature and causing global warming.
 
----
 
 ### Example 2
 
@@ -118,7 +117,6 @@ Climate change is a global concern because it affects weather patterns, sea leve
 
 Vaccines work by training the immune system to recognize and fight harmful germs. They contain weakened or inactive parts of a virus or bacteria, which help the body produce antibodies and build immunity without causing the actual disease.
 
----
 
 # 4. Missing Word Prompting
 
@@ -134,7 +132,6 @@ Missing word prompting requires completing incomplete statements with appropriat
 **Response:**
 The capital of France is Paris.
 
----
 
 ### Example 2
 
@@ -146,6 +143,7 @@ In photosynthesis, plants absorb sunlight to produce food (glucose).
 
 ### Conclusion 
 
+The different prompt engineering techniques were successfully implemented and evaluated using the AI-powered customer support chatbot scenario. Straightforward prompts provided direct answers, tabular prompts organized information clearly, preceding question prompts improved interaction and accuracy, and missing word prompts enhanced user participation. These techniques help improve chatbot performance and user experience in real-world applications.
 
 # Result:
 The various types of Prompts are executed successfully with generated the report.
