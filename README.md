@@ -7,7 +7,6 @@
 
 To design an AI-powered chatbot that assists customers in resolving issues related to product troubleshooting, order tracking, and general inquiries. The chatbot should handle various customer queries efficiently while maintaining a conversational and user-friendly tone using different prompt engineering techniques.
 
----
 
 # Introduction
 
@@ -15,12 +14,11 @@ AI-powered customer support chatbots help businesses provide instant responses t
 
 <img width="870" height="530" alt="image" src="https://github.com/user-attachments/assets/72b5af55-d4ee-4784-8fc7-38d44a66ab74" />
 
----
-
 
 ## Prompt type
 
 Procedure:
+
 <img width="1024" height="559" alt="unnamed" src="https://github.com/user-attachments/assets/f3a1c233-4c0a-4875-8a32-973f06a62661" />
 
 
