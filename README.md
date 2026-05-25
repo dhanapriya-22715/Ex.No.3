@@ -35,6 +35,7 @@ This is the most common and direct way to interact with an AI. You ask a direct 
 This technique is used when you need information organized, structured, or compared neatly. Instead of getting a wall of text, you instruct the AI to output its response in a table with specific columns.
 
 * **How it works:** You define the structure you want (e.g., "Create a table with columns for Concept, Definition, and Example").
+  
 * **Example from image:** The AI generates a clean, three-column table organizing scientific terms like *Erosion* and *Gravity* alongside their definitions and examples.
 
 ## 3. Missing Word Prompting (Fill-in-the-Blanks)
@@ -42,6 +43,7 @@ This technique is used when you need information organized, structured, or compa
 Also known as "cloze prompting," this method involves giving the AI a sentence with a blank space or an incomplete thought and asking it to complete it. It is highly effective for testing logic, vocabulary, or forcing a concise answer.
 
 * **How it works:** You provide the context and leave a placeholder (like `____`) for the AI to fill.
+  
 * **Example from image:**
 * *Prompt:* "The opposite of hot is ____."
 * *AI Completes:* "cold"
@@ -51,6 +53,7 @@ Also known as "cloze prompting," this method involves giving the AI a sentence w
 This is a chained or multi-turn prompting strategy. Instead of throwing a complex request at the AI all at once, you prime it by asking a foundational question first, and then follow up with a related question based on that context.
 
 * **How it works:** Step one establishes the baseline knowledge, and step two builds upon it to get a deeper, more accurate answer.
+  
 * **Example from image:**
 * *Preceding Q1:* "How far is the Earth from the Sun?"
 * *Follow-up Q2:* "Is that distance constant?"
