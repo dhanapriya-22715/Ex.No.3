@@ -17,7 +17,6 @@ AI-powered customer support chatbots help businesses provide instant responses t
 
 ## Prompt type
 
-Procedure:
 
 <img width="1024" height="559" alt="unnamed" src="https://github.com/user-attachments/assets/f3a1c233-4c0a-4875-8a32-973f06a62661" />
 
