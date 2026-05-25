@@ -2,10 +2,22 @@
 
 ## DATE: 16-05-2026                                                                           
 ## REGISTER NUMBER : 212224230056
-# Aim:
-To write the prompts for these following prompt types and evaluate that using any one method 1. Straightforward Prompts, 2. Tabular Format Prompting 3.Preceding Question Prompting and 4. Missing Word Prompting
-## AI Tools Required:
-chatgpt
+
+# AIM
+
+To design an AI-powered chatbot that assists customers in resolving issues related to product troubleshooting, order tracking, and general inquiries. The chatbot should handle various customer queries efficiently while maintaining a conversational and user-friendly tone using different prompt engineering techniques.
+
+---
+
+# Introduction
+
+AI-powered customer support chatbots help businesses provide instant responses to customer queries. Prompt engineering techniques improve chatbot communication, accuracy, and user interaction. Different prompting methods guide the AI in generating structured, relevant, and customer-friendly responses.
+
+<img width="1170" height="730" alt="image" src="https://github.com/user-attachments/assets/72b5af55-d4ee-4784-8fc7-38d44a66ab74" />
+
+---
+
+
 ## Prompt type
 Procedure:
 <img width="1024" height="559" alt="unnamed" src="https://github.com/user-attachments/assets/f3a1c233-4c0a-4875-8a32-973f06a62661" />
@@ -44,7 +56,9 @@ This is a chained or multi-turn prompting strategy. Instead of throwing a comple
 * **Example from image:**
 * *Preceding Q1:* "How far is the Earth from the Sun?"
 * *Follow-up Q2:* "Is that distance constant?"
-## Prompting Techniques Used for the Chatbot
+
+
+# Prompting Techniques Used for the Chatbot
 
 
 ## 1. Straightforward Prompts
@@ -76,98 +90,117 @@ Photosynthesis is the process by which green plants use sunlight, water, and car
 
 
 
-# 2. Tabular Format Prompting
+# Prompt Engineering Techniques Used
 
-### Definition
+## 1. Straightforward Prompts
 
-Tabular format prompting presents information in a structured table for better readability and comparison.
+Direct and simple prompts that clearly instruct the AI about the required task.
 
-### Example 1
+### Example Prompt
 
-**Prompt:**
-“Compare and contrast AC and DC current in a table.”
+“Act as a customer support chatbot and help the customer troubleshoot a smartphone charging issue.”
 
-### Response
+### AI Response
 
-| Feature         | AC Current                     | DC Current                   |
-| --------------- | ------------------------------ | ---------------------------- |
-| Full Form       | Alternating Current            | Direct Current               |
-| Flow of Current | Changes direction periodically | Flows in one direction       |
-| Source          | Power stations                 | Batteries                    |
-| Transmission    | Suitable for long distances    | Suitable for short distances |
-| Example         | Household electricity          | Mobile phone battery         |
+“Please check whether the charging cable is properly connected. Try using another charger or power outlet. If the issue continues, restart the phone and inspect the charging port for dust or damage.”
 
+### Explanation
 
+This prompt gives clear instructions to the AI, helping it generate a direct and relevant troubleshooting response.
 
-### Example 2
+---
 
-**Prompt:**
-“Provide a table listing five programming languages, their paradigms, and one use case each.”
+## 2. Tabular Format Prompting
 
-### Response
+Prompts are organized in table format to provide structured responses.
 
-| Programming Language | Paradigm        | Use Case                |
-| -------------------- | --------------- | ----------------------- |
-| Python               | Object-Oriented | Data Science            |
-| Java                 | Object-Oriented | Enterprise Applications |
-| C                    | Procedural      | System Programming      |
-| JavaScript           | Event-Driven    | Web Development         |
-| SQL                  | Declarative     | Database Management     |
+| Customer Query                   | Chatbot Response                                                               |
+| -------------------------------- | ------------------------------------------------------------------------------ |
+| “Where is my order?”             | “Please provide your order ID to track the shipment status.”                   |
+| “My headphones are not working.” | “Try reconnecting the device via Bluetooth and ensure the battery is charged.” |
+| “What are your support hours?”   | “Customer support is available from 9 AM to 8 PM.”                             |
 
+### Explanation
 
+Tabular prompting helps organize customer interactions clearly and improves readability and response consistency.
 
-# 3. Preceding Question Prompting
+---
 
-### Definition
+## 3. Missing Word Prompting
 
-Preceding question prompting asks an initial question before providing a detailed explanation or answer.
+The AI fills in missing information based on context.
 
-### Example 1
+### Example Prompt
 
-**Prompt:**
-“Why is climate change a global concern? Explain how greenhouse gases contribute to global warming.”
+“The customer cannot log into the account because they forgot their ______.”
 
-### Response
+### AI Response
 
-Climate change is a global concern because it affects weather patterns, sea levels, agriculture, and human health worldwide. Greenhouse gases such as carbon dioxide and methane trap heat in the Earth’s atmosphere, increasing the planet’s temperature and causing global warming.
+“password”
 
+### Another Example
 
-### Example 2
+“To track an order, the customer must provide the ______ ID.”
 
-**Prompt:**
-“How do vaccines work? Describe the process of immunization in simple terms.”
+### AI Response
 
-### Response
+“order”
 
-Vaccines work by training the immune system to recognize and fight harmful germs. They contain weakened or inactive parts of a virus or bacteria, which help the body produce antibodies and build immunity without causing the actual disease.
+### Explanation
 
+This technique helps the chatbot predict and complete customer inputs intelligently.
 
-# 4. Missing Word Prompting
+---
 
-### Definition
+## 4. Preceding Question Prompting
 
-Missing word prompting requires completing incomplete statements with appropriate words.
+The chatbot asks guiding questions before giving the final solution.
 
-### Example 1
+### Example Prompt
 
-**Prompt:**
-“The capital of France is ____.”
+Customer: “My laptop is overheating.”
 
-**Response:**
-The capital of France is Paris.
+Chatbot:
 
+1. “How long have you been using the laptop continuously?”
+2. “Are the cooling vents blocked?”
+3. “Is the laptop placed on a hard surface?”
 
-### Example 2
+Final Response:
+“Please clean the cooling vents, use the laptop on a flat surface, and avoid prolonged usage without breaks.”
 
-**Prompt:**
-“In photosynthesis, plants absorb sunlight to produce ____.”
+### Explanation
 
-**Response:**
-In photosynthesis, plants absorb sunlight to produce food (glucose).
+Preceding questions help the chatbot gather more information before providing accurate solutions.
 
-### Conclusion 
+---
 
-The different prompt engineering techniques were successfully implemented and evaluated using the AI-powered customer support chatbot scenario. Straightforward prompts provided direct answers, tabular prompts organized information clearly, preceding question prompts improved interaction and accuracy, and missing word prompts enhanced user participation. These techniques help improve chatbot performance and user experience in real-world applications.
+# Advantages of Using These Prompting Techniques
+
+* Improves chatbot response quality
+* Enhances customer experience
+* Provides accurate troubleshooting support
+* Helps maintain conversational flow
+* Reduces customer waiting time
+* Makes chatbot interactions more user-friendly
+
+---
+
+# Applications of AI Customer Support Chatbots
+
+* E-commerce order tracking
+* Technical troubleshooting
+* Banking customer support
+* Healthcare appointment assistance
+* Product inquiry handling
+* Online service management
+
+---
+
+# Conclusion
+
+Using prompt engineering techniques such as Straightforward Prompts, Tabular Format Prompting, Missing Word Prompting, and Preceding Question Prompting helps in building an efficient AI-powered customer support chatbot. These methods improve communication, response accuracy, and customer satisfaction while ensuring smooth and intelligent interactions.
+
 
 # Result:
 The various types of Prompts are executed successfully with generated the report.
