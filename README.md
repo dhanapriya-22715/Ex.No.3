@@ -4,7 +4,8 @@
 ## REGISTER NUMBER : 212224230056
 # Aim:
 To write the prompts for these following prompt types and evaluate that using any one method 1. Straightforward Prompts, 2. Tabular Format Prompting 3.Preceding Question Prompting and 4. Missing Word Prompting
-
+## AI Tools Required:
+chatgpt
 ## Prompt type
 Procedure:
 <img width="1024" height="559" alt="unnamed" src="https://github.com/user-attachments/assets/f3a1c233-4c0a-4875-8a32-973f06a62661" />
