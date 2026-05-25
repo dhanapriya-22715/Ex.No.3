@@ -13,12 +13,13 @@ To design an AI-powered chatbot that assists customers in resolving issues relat
 
 AI-powered customer support chatbots help businesses provide instant responses to customer queries. Prompt engineering techniques improve chatbot communication, accuracy, and user interaction. Different prompting methods guide the AI in generating structured, relevant, and customer-friendly responses.
 
-<img width="1170" height="730" alt="image" src="https://github.com/user-attachments/assets/72b5af55-d4ee-4784-8fc7-38d44a66ab74" />
+<img width="770" height="330" alt="image" src="https://github.com/user-attachments/assets/72b5af55-d4ee-4784-8fc7-38d44a66ab74" />
 
 ---
 
 
 ## Prompt type
+
 Procedure:
 <img width="1024" height="559" alt="unnamed" src="https://github.com/user-attachments/assets/f3a1c233-4c0a-4875-8a32-973f06a62661" />
 
